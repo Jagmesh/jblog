@@ -1,0 +1,17 @@
+{
+  "name": "jblog",
+  "version": "0.0.4",
+  "description": "Jagmesh's beautiful logger module for Node.js",
+  "type": "commonjs",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": ["./lib"],
+  "keywords": ["logger", "tools", "logs"],
+  "author": "Artyom <Jagmesh> Chuykov",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
