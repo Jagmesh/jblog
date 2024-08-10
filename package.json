@@ -7,6 +7,10 @@
   "scripts": {
     "build": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jagmesh/jblog"
+  },
   "files": ["./lib"],
   "keywords": ["logger", "tools", "logs"],
   "author": "Artyom <Jagmesh> Chuykov",
