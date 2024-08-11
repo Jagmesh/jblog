@@ -7,7 +7,7 @@ interface LogConfig {
     utc?: number
 }
 
-export default class Logger {
+class Logger {
     private readonly _scopeList: string | undefined;
     private readonly _levels = {
         INFO: 'INFO   ',
@@ -70,3 +70,5 @@ export default class Logger {
         return date.toJSON().slice(0, -5).replace(/T/, ' ');
     }
 }
+
+export = Logger

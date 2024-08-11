@@ -3,12 +3,25 @@
 Simple Node.js colorful logger for pretty-looking console messages
 
 [![Version npm](https://img.shields.io/npm/v/jblog)](https://www.npmjs.com/package/jblog)
+[![npm downloads](https://img.shields.io/npm/dm/jblog)](https://npm-stat.com/charts.html?package=jblog)
 
 ## Installation
 
 ```shell
 npm i jblog
 ```
+
+## Import
+
+```js
+import Logger from 'jblog'
+```
+or
+
+```js
+const Logger = require('jblog')
+```
+
 
 ## Usage
 
